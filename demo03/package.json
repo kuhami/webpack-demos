@@ -1,7 +1,6 @@
 {
-  "name": "webpack-demo2",
+  "name": "webpack-demo3",
   "version": "1.0.0",
-  "main": "main1.js",
   "scripts": {
     "dev": "webpack-dev-server --open",
     "build": "webpack -p"

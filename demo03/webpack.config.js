@@ -1,10 +1,21 @@
 // webpack.config.js
 module.exports = {
-    entry: {
-        bundle1: './main1.js',
-        bundle2: './main2.js'
-    },
+    entry: './main.jsx',
     output: {
-        filename: '[name].js'
+        filename: 'bundle.js'
+    },
+    module: {
+        rules: [
+            {
+                test: /\.jsx?$/,
+                exclude: /node_modules/,
+                use: {
+                    loader: 'babel-loader',
+                    options: {
+                        presets: ['es2015', 'react']
+                    }
+                }
+            }
+        ]
     }
 };
