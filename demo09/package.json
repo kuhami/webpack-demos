@@ -2,8 +2,8 @@
   "name": "webpack-demo09",
   "version": "1.0.0",
   "scripts": {
-    "dev": "npx cross-env DEBUG=true webpack-dev-server --open",
-    "build": "npx cross-env DEBUG=false webpack"
+    "dev": "npx cross-env DEBUG=false webpack-dev-server --open",
+    "build": "npx cross-env DEBUG=true webpack"
   },
   "license": "MIT"
 }

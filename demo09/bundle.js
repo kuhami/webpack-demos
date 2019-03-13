@@ -69,8 +69,8 @@
 
 // main.js
 document.write('<h1>Hello World</h1>');
-console.log(false);
-if (false) {
+console.log(true);
+if (true) {
     document.write(new Date());
 }
 
