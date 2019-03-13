@@ -65,10 +65,14 @@
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
 // main.js
-document.write('<h1>Hello World !!!</h1>');
+document.write('<h1>Hello World</h1>');
+console.log(false);
+if (false) {
+    document.write(new Date());
+}
 
 /***/ })
 /******/ ]);
