@@ -1,10 +1,11 @@
-
+var path = require('path');
 module.exports = {
     entry: {
         bundle:'./index.js',//多文件入口
     },
     output: {
-        filename: '[name].js',//创建多个
+        path: path.resolve(__dirname, 'dist'),
+        filename: '[name].js',//创建多个文件
     },
     module: {
         rules: [
