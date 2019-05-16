@@ -1,8 +1,10 @@
 
 module.exports = {
-    entry: './index.js',
+    entry: {
+        bundle:'./index.js',//多文件入口
+    },
     output: {
-        filename: 'bundle.js'
+        filename: '[name].js',//创建多个
     },
     module: {
         rules: [
