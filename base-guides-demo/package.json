@@ -1,7 +1,7 @@
 {
   "name": "base-demo",
   "version": "1.0.0",
-  "description": "起步",
+  "description": "https://webpack.docschina.org/guides/",
   "private": true,
   "main": "index.js",
   "scripts": {
