@@ -1,11 +1,10 @@
-
 module.exports = {
     entry: './main.jsx',
     output: {
         filename: 'bundle.js'
     },
     module: {
-        rules:[
+        rules: [
             {
                 test: /\.js[x]?$/,
                 exclude: /node_modules/,
